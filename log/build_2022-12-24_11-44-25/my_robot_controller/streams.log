@@ -1,0 +1,25 @@
+[3.535s] Invoking command in '/home/shubham/ros2_ws/src/build/my_robot_controller': PYTHONPATH=/home/shubham/ros2_ws/src/build/my_robot_controller/prefix_override:/home/shubham/ros2_ws/src/install/my_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/shubham/ros2_ws/src/build/my_robot_controller/build --no-deps install_data
+[4.879s] running develop
+[5.756s] running egg_info
+[5.756s] creating my_robot_controller.egg-info
+[5.757s] writing my_robot_controller.egg-info/PKG-INFO
+[5.758s] writing dependency_links to my_robot_controller.egg-info/dependency_links.txt
+[5.758s] writing entry points to my_robot_controller.egg-info/entry_points.txt
+[5.759s] writing requirements to my_robot_controller.egg-info/requires.txt
+[5.759s] writing top-level names to my_robot_controller.egg-info/top_level.txt
+[5.761s] writing manifest file 'my_robot_controller.egg-info/SOURCES.txt'
+[5.768s] reading manifest file 'my_robot_controller.egg-info/SOURCES.txt'
+[5.772s] writing manifest file 'my_robot_controller.egg-info/SOURCES.txt'
+[5.780s] running build_ext
+[5.781s] Creating /home/shubham/ros2_ws/src/install/my_robot_controller/lib/python3.10/site-packages/my-robot-controller.egg-link (link to .)
+[5.788s] Installing draw_circle script to /home/shubham/ros2_ws/src/install/my_robot_controller/lib/my_robot_controller
+[5.789s] Installing test_node script to /home/shubham/ros2_ws/src/install/my_robot_controller/lib/my_robot_controller
+[5.791s] 
+[5.792s] Installed /home/shubham/ros2_ws/src/build/my_robot_controller
+[5.793s] running install_data
+[5.793s] creating /home/shubham/ros2_ws/src/install/my_robot_controller/share/ament_index
+[5.794s] creating /home/shubham/ros2_ws/src/install/my_robot_controller/share/ament_index/resource_index
+[5.795s] creating /home/shubham/ros2_ws/src/install/my_robot_controller/share/ament_index/resource_index/packages
+[5.796s] copying resource/my_robot_controller -> /home/shubham/ros2_ws/src/install/my_robot_controller/share/ament_index/resource_index/packages
+[5.797s] copying package.xml -> /home/shubham/ros2_ws/src/install/my_robot_controller/share/my_robot_controller
+[5.970s] Invoked command in '/home/shubham/ros2_ws/src/build/my_robot_controller' returned '0': PYTHONPATH=/home/shubham/ros2_ws/src/build/my_robot_controller/prefix_override:/home/shubham/ros2_ws/src/install/my_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/shubham/ros2_ws/src/build/my_robot_controller/build --no-deps install_data
