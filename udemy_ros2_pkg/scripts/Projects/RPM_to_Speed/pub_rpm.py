@@ -1,18 +1,18 @@
 import rclpy
 
 from rclpy.node import Node
-from std_msgs.msg import String
+from std_msgs.msg import Float32
 
 class Pub_rpm_node(Node):
 
     def __init__(self):
         super().__init__("pub_rpm")
-        self.pub = self.create_publisher(String,"topic_rpm",10)
+        self.pub = self.create_publisher(Float32,"topic_rpm",10)
         self.timer = self.create_timer(1,self.rpm_callback)
 
     def rpm_callback(self):
-        msg = String()
-        msg.data = '10'
+        msg = Float32()
+        msg.data = float(10) # 10 is a constant 
         self.pub.publish(msg)
 
 
