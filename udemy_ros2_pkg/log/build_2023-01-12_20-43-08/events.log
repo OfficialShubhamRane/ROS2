@@ -1,0 +1,101 @@
+[0.000000] (-) TimerEvent: {}
+[0.001785] (udemy_ros2_pkg) JobQueued: {'identifier': 'udemy_ros2_pkg', 'dependencies': OrderedDict()}
+[0.002456] (udemy_ros2_pkg) JobStarted: {'identifier': 'udemy_ros2_pkg'}
+[0.094835] (udemy_ros2_pkg) JobProgress: {'identifier': 'udemy_ros2_pkg', 'progress': 'cmake'}
+[0.096844] (udemy_ros2_pkg) Command: {'cmd': ['/usr/bin/cmake', '/home/shubham/ros2_ws/src/udemy_ros2_pkg', '-DCMAKE_INSTALL_PREFIX=/home/shubham/ros2_ws/src/udemy_ros2_pkg/install/udemy_ros2_pkg'], 'cwd': '/home/shubham/ros2_ws/src/udemy_ros2_pkg/build/udemy_ros2_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('no_proxy', 'localhost,127.0.0.0/8,::1'), ('USER', 'shubham'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/shubham'), ('OLDPWD', '/home/shubham/ros2_ws/src/udemy_ros2_pkg/src'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.0/8,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '455526'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/shubham/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'shubham'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'shubham'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/shubham-desktop:@/tmp/.ICE-unix/455508,unix/shubham-desktop:/tmp/.ICE-unix/455508'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/db460b47_3769_4306_b9ae_5aa615b9747f'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.VSW1X1'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.861'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/shubham/ros2_ws/install/my_robot_controller:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/shubham/ros2_ws/src/udemy_ros2_pkg/build/udemy_ros2_pkg'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/shubham/ros2_ws/build/my_robot_controller:/home/shubham/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/shubham/ros2_ws/install/my_robot_controller:/opt/ros/humble')]), 'shell': False}
+[0.111405] (-) TimerEvent: {}
+[0.212170] (-) TimerEvent: {}
+[0.313860] (-) TimerEvent: {}
+[0.416542] (-) TimerEvent: {}
+[0.517429] (-) TimerEvent: {}
+[0.595785] (udemy_ros2_pkg) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.3.0\n'}
+[0.617639] (-) TimerEvent: {}
+[0.718489] (-) TimerEvent: {}
+[0.819877] (-) TimerEvent: {}
+[0.924951] (-) TimerEvent: {}
+[1.026356] (-) TimerEvent: {}
+[1.037611] (udemy_ros2_pkg) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.3.0\n'}
+[1.073107] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.126599] (-) TimerEvent: {}
+[1.227762] (-) TimerEvent: {}
+[1.328709] (-) TimerEvent: {}
+[1.429586] (-) TimerEvent: {}
+[1.466970] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.493343] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.494236] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.495742] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.508063] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.529739] (-) TimerEvent: {}
+[1.630733] (-) TimerEvent: {}
+[1.731662] (-) TimerEvent: {}
+[1.832561] (-) TimerEvent: {}
+[1.903049] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.932031] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.932551] (-) TimerEvent: {}
+[1.933137] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.934774] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.960835] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[2.032798] (-) TimerEvent: {}
+[2.133525] (-) TimerEvent: {}
+[2.234228] (-) TimerEvent: {}
+[2.334913] (-) TimerEvent: {}
+[2.435555] (-) TimerEvent: {}
+[2.536281] (-) TimerEvent: {}
+[2.637169] (-) TimerEvent: {}
+[2.738187] (-) TimerEvent: {}
+[2.839322] (-) TimerEvent: {}
+[2.882526] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter \n'}
+[2.939501] (-) TimerEvent: {}
+[3.040196] (-) TimerEvent: {}
+[3.140916] (-) TimerEvent: {}
+[3.241656] (-) TimerEvent: {}
+[3.342352] (-) TimerEvent: {}
+[3.443155] (-) TimerEvent: {}
+[3.514543] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Found rclpy: 3.3.5 (/opt/ros/humble/share/rclpy/cmake)\n'}
+[3.543403] (-) TimerEvent: {}
+[3.644294] (-) TimerEvent: {}
+[3.745106] (-) TimerEvent: {}
+[3.846052] (-) TimerEvent: {}
+[3.927679] (udemy_ros2_pkg) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/humble/share/ament_cmake_python/cmake/ament_python_install_package.cmake:122 (add_custom_target):\n'}
+[3.928498] (udemy_ros2_pkg) StderrLine: {'line': b'  add_custom_target called with invalid target name\n'}
+[3.928811] (udemy_ros2_pkg) StderrLine: {'line': b'  "ament_cmake_python_copy_scripts/".  Target names may not contain a slash.\n'}
+[3.929079] (udemy_ros2_pkg) StderrLine: {'line': b'  Use ADD_CUSTOM_COMMAND to generate files.\n'}
+[3.929336] (udemy_ros2_pkg) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[3.929590] (udemy_ros2_pkg) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_python/cmake/ament_python_install_package.cmake:39 (_ament_cmake_python_install_package)\n'}
+[3.929910] (udemy_ros2_pkg) StderrLine: {'line': b'  CMakeLists.txt:13 (ament_python_install_package)\n'}
+[3.930165] (udemy_ros2_pkg) StderrLine: {'line': b'\n'}
+[3.930457] (udemy_ros2_pkg) StderrLine: {'line': b'\x1b[0m\n'}
+[3.930951] (udemy_ros2_pkg) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/humble/share/ament_cmake_python/cmake/ament_python_install_package.cmake:141 (add_custom_target):\n'}
+[3.931405] (udemy_ros2_pkg) StderrLine: {'line': b'  add_custom_target called with invalid target name\n'}
+[3.931800] (udemy_ros2_pkg) StderrLine: {'line': b'  "ament_cmake_python_build_scripts/_egg".  Target names may not contain a\n'}
+[3.932254] (udemy_ros2_pkg) StderrLine: {'line': b'  slash.  Use ADD_CUSTOM_COMMAND to generate files.\n'}
+[3.932646] (udemy_ros2_pkg) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[3.932983] (udemy_ros2_pkg) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_python/cmake/ament_python_install_package.cmake:39 (_ament_cmake_python_install_package)\n'}
+[3.933325] (udemy_ros2_pkg) StderrLine: {'line': b'  CMakeLists.txt:13 (ament_python_install_package)\n'}
+[3.933671] (udemy_ros2_pkg) StderrLine: {'line': b'\n'}
+[3.933973] (udemy_ros2_pkg) StderrLine: {'line': b'\x1b[0m\n'}
+[3.946258] (-) TimerEvent: {}
+[3.946992] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.4 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[4.046526] (-) TimerEvent: {}
+[4.147292] (-) TimerEvent: {}
+[4.248356] (-) TimerEvent: {}
+[4.349139] (-) TimerEvent: {}
+[4.449842] (-) TimerEvent: {}
+[4.482375] (udemy_ros2_pkg) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[4.483829] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[4.484730] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[4.497220] (udemy_ros2_pkg) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[4.550041] (-) TimerEvent: {}
+[4.562411] (udemy_ros2_pkg) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[4.576658] (udemy_ros2_pkg) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[4.650242] (-) TimerEvent: {}
+[4.711729] (udemy_ros2_pkg) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[4.712308] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[4.723602] (udemy_ros2_pkg) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[4.733414] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[4.733956] (udemy_ros2_pkg) StdoutLine: {'line': b'See also "/home/shubham/ros2_ws/src/udemy_ros2_pkg/build/udemy_ros2_pkg/CMakeFiles/CMakeOutput.log".\n'}
+[4.750397] (-) TimerEvent: {}
+[4.751523] (udemy_ros2_pkg) CommandEnded: {'returncode': 1}
+[4.854211] (-) TimerEvent: {}
+[4.869968] (udemy_ros2_pkg) JobEnded: {'identifier': 'udemy_ros2_pkg', 'rc': 1}
+[4.882139] (-) EventReactorShutdown: {}

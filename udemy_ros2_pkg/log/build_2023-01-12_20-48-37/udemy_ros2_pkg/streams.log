@@ -1,0 +1,76 @@
+[0.080s] Invoking command in '/home/shubham/ros2_ws/src/udemy_ros2_pkg/build/udemy_ros2_pkg': CMAKE_PREFIX_PATH=/home/shubham/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake /home/shubham/ros2_ws/src/udemy_ros2_pkg -DCMAKE_INSTALL_PREFIX=/home/shubham/ros2_ws/src/udemy_ros2_pkg/install/udemy_ros2_pkg
+[0.143s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.907s] -- Found rclpy: 3.3.5 (/opt/ros/humble/share/rclpy/cmake)
+[1.248s] -- Found ament_lint_auto: 0.12.4 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.710s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.710s] -- Configured cppcheck include dirs: 
+[1.711s] -- Configured cppcheck exclude dirs and/or files: 
+[1.723s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.746s] -- Added test 'lint_cmake' to check CMake code style
+[1.760s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.849s] -- Added test 'uncrustify' to check C / C++ code style
+[1.850s] -- Configured uncrustify additional arguments: 
+[1.864s] -- Added test 'xmllint' to check XML markup files
+[1.868s] -- Configuring done
+[1.899s] -- Generating done
+[1.905s] -- Build files have been written to: /home/shubham/ros2_ws/src/udemy_ros2_pkg/build/udemy_ros2_pkg
+[1.915s] Invoked command in '/home/shubham/ros2_ws/src/udemy_ros2_pkg/build/udemy_ros2_pkg' returned '0': CMAKE_PREFIX_PATH=/home/shubham/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake /home/shubham/ros2_ws/src/udemy_ros2_pkg -DCMAKE_INSTALL_PREFIX=/home/shubham/ros2_ws/src/udemy_ros2_pkg/install/udemy_ros2_pkg
+[1.924s] Invoking command in '/home/shubham/ros2_ws/src/udemy_ros2_pkg/build/udemy_ros2_pkg': CMAKE_PREFIX_PATH=/home/shubham/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/shubham/ros2_ws/src/udemy_ros2_pkg/build/udemy_ros2_pkg -- -j4 -l4
+[2.189s] Built target ament_cmake_python_copy_scripts
+[3.568s] running egg_info
+[3.576s] creating scripts.egg-info
+[3.577s] writing scripts.egg-info/PKG-INFO
+[3.577s] writing dependency_links to scripts.egg-info/dependency_links.txt
+[3.578s] writing top-level names to scripts.egg-info/top_level.txt
+[3.578s] writing manifest file 'scripts.egg-info/SOURCES.txt'
+[3.590s] reading manifest file 'scripts.egg-info/SOURCES.txt'
+[3.593s] writing manifest file 'scripts.egg-info/SOURCES.txt'
+[3.741s] Built target ament_cmake_python_build_scripts_egg
+[3.785s] Invoked command in '/home/shubham/ros2_ws/src/udemy_ros2_pkg/build/udemy_ros2_pkg' returned '0': CMAKE_PREFIX_PATH=/home/shubham/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/shubham/ros2_ws/src/udemy_ros2_pkg/build/udemy_ros2_pkg -- -j4 -l4
+[3.956s] Invoking command in '/home/shubham/ros2_ws/src/udemy_ros2_pkg/build/udemy_ros2_pkg': CMAKE_PREFIX_PATH=/home/shubham/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/shubham/ros2_ws/src/udemy_ros2_pkg/build/udemy_ros2_pkg
+[3.987s] -- Install configuration: ""
+[3.988s] -- Installing: /home/shubham/ros2_ws/src/udemy_ros2_pkg/install/udemy_ros2_pkg/share/udemy_ros2_pkg/environment/pythonpath.sh
+[3.991s] -- Installing: /home/shubham/ros2_ws/src/udemy_ros2_pkg/install/udemy_ros2_pkg/share/udemy_ros2_pkg/environment/pythonpath.dsv
+[3.992s] -- Installing: /home/shubham/ros2_ws/src/udemy_ros2_pkg/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/scripts-0.0.0-py3.10.egg-info
+[3.994s] -- Installing: /home/shubham/ros2_ws/src/udemy_ros2_pkg/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/scripts-0.0.0-py3.10.egg-info/PKG-INFO
+[3.995s] -- Installing: /home/shubham/ros2_ws/src/udemy_ros2_pkg/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/scripts-0.0.0-py3.10.egg-info/top_level.txt
+[3.997s] -- Installing: /home/shubham/ros2_ws/src/udemy_ros2_pkg/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/scripts-0.0.0-py3.10.egg-info/SOURCES.txt
+[3.998s] -- Installing: /home/shubham/ros2_ws/src/udemy_ros2_pkg/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/scripts-0.0.0-py3.10.egg-info/dependency_links.txt
+[4.000s] -- Installing: /home/shubham/ros2_ws/src/udemy_ros2_pkg/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/scripts
+[4.000s] -- Installing: /home/shubham/ros2_ws/src/udemy_ros2_pkg/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/scripts/Projects
+[4.001s] -- Installing: /home/shubham/ros2_ws/src/udemy_ros2_pkg/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/scripts/Projects/RPM_to_Speed
+[4.002s] -- Installing: /home/shubham/ros2_ws/src/udemy_ros2_pkg/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/scripts/Projects/RPM_to_Speed/sub_rpm.py
+[4.004s] -- Installing: /home/shubham/ros2_ws/src/udemy_ros2_pkg/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/scripts/Projects/RPM_to_Speed/.vscode
+[4.005s] -- Installing: /home/shubham/ros2_ws/src/udemy_ros2_pkg/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/scripts/Projects/RPM_to_Speed/.vscode/c_cpp_properties.json
+[4.006s] -- Installing: /home/shubham/ros2_ws/src/udemy_ros2_pkg/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/scripts/Projects/RPM_to_Speed/.vscode/settings.json
+[4.007s] -- Installing: /home/shubham/ros2_ws/src/udemy_ros2_pkg/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/scripts/Projects/RPM_to_Speed/pub_rpm.py
+[4.009s] -- Installing: /home/shubham/ros2_ws/src/udemy_ros2_pkg/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/scripts/subscriber.py
+[4.010s] -- Installing: /home/shubham/ros2_ws/src/udemy_ros2_pkg/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/scripts/publisher.py
+[4.011s] -- Installing: /home/shubham/ros2_ws/src/udemy_ros2_pkg/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/scripts/__init__.py
+[4.200s] Listing '/home/shubham/ros2_ws/src/udemy_ros2_pkg/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/scripts'...
+[4.202s] Listing '/home/shubham/ros2_ws/src/udemy_ros2_pkg/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/scripts/Projects'...
+[4.203s] Listing '/home/shubham/ros2_ws/src/udemy_ros2_pkg/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/scripts/Projects/RPM_to_Speed'...
+[4.205s] Listing '/home/shubham/ros2_ws/src/udemy_ros2_pkg/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/scripts/Projects/RPM_to_Speed/.vscode'...
+[4.206s] Compiling '/home/shubham/ros2_ws/src/udemy_ros2_pkg/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/scripts/Projects/RPM_to_Speed/pub_rpm.py'...
+[4.207s] Compiling '/home/shubham/ros2_ws/src/udemy_ros2_pkg/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/scripts/Projects/RPM_to_Speed/sub_rpm.py'...
+[4.208s] Compiling '/home/shubham/ros2_ws/src/udemy_ros2_pkg/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/scripts/__init__.py'...
+[4.210s] Compiling '/home/shubham/ros2_ws/src/udemy_ros2_pkg/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/scripts/publisher.py'...
+[4.211s] Compiling '/home/shubham/ros2_ws/src/udemy_ros2_pkg/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/scripts/subscriber.py'...
+[4.227s] -- Installing: /home/shubham/ros2_ws/src/udemy_ros2_pkg/install/udemy_ros2_pkg/lib/udemy_ros2_pkg/publisher.py
+[4.228s] -- Installing: /home/shubham/ros2_ws/src/udemy_ros2_pkg/install/udemy_ros2_pkg/lib/udemy_ros2_pkg/subscriber.py
+[4.230s] -- Installing: /home/shubham/ros2_ws/src/udemy_ros2_pkg/install/udemy_ros2_pkg/share/ament_index/resource_index/package_run_dependencies/udemy_ros2_pkg
+[4.232s] -- Installing: /home/shubham/ros2_ws/src/udemy_ros2_pkg/install/udemy_ros2_pkg/share/ament_index/resource_index/parent_prefix_path/udemy_ros2_pkg
+[4.234s] -- Installing: /home/shubham/ros2_ws/src/udemy_ros2_pkg/install/udemy_ros2_pkg/share/udemy_ros2_pkg/environment/ament_prefix_path.sh
+[4.235s] -- Installing: /home/shubham/ros2_ws/src/udemy_ros2_pkg/install/udemy_ros2_pkg/share/udemy_ros2_pkg/environment/ament_prefix_path.dsv
+[4.237s] -- Installing: /home/shubham/ros2_ws/src/udemy_ros2_pkg/install/udemy_ros2_pkg/share/udemy_ros2_pkg/environment/path.sh
+[4.239s] -- Installing: /home/shubham/ros2_ws/src/udemy_ros2_pkg/install/udemy_ros2_pkg/share/udemy_ros2_pkg/environment/path.dsv
+[4.241s] -- Installing: /home/shubham/ros2_ws/src/udemy_ros2_pkg/install/udemy_ros2_pkg/share/udemy_ros2_pkg/local_setup.bash
+[4.242s] -- Installing: /home/shubham/ros2_ws/src/udemy_ros2_pkg/install/udemy_ros2_pkg/share/udemy_ros2_pkg/local_setup.sh
+[4.244s] -- Installing: /home/shubham/ros2_ws/src/udemy_ros2_pkg/install/udemy_ros2_pkg/share/udemy_ros2_pkg/local_setup.zsh
+[4.245s] -- Installing: /home/shubham/ros2_ws/src/udemy_ros2_pkg/install/udemy_ros2_pkg/share/udemy_ros2_pkg/local_setup.dsv
+[4.246s] -- Installing: /home/shubham/ros2_ws/src/udemy_ros2_pkg/install/udemy_ros2_pkg/share/udemy_ros2_pkg/package.dsv
+[4.248s] -- Installing: /home/shubham/ros2_ws/src/udemy_ros2_pkg/install/udemy_ros2_pkg/share/ament_index/resource_index/packages/udemy_ros2_pkg
+[4.249s] -- Installing: /home/shubham/ros2_ws/src/udemy_ros2_pkg/install/udemy_ros2_pkg/share/udemy_ros2_pkg/cmake/udemy_ros2_pkgConfig.cmake
+[4.251s] -- Installing: /home/shubham/ros2_ws/src/udemy_ros2_pkg/install/udemy_ros2_pkg/share/udemy_ros2_pkg/cmake/udemy_ros2_pkgConfig-version.cmake
+[4.252s] -- Installing: /home/shubham/ros2_ws/src/udemy_ros2_pkg/install/udemy_ros2_pkg/share/udemy_ros2_pkg/package.xml
+[4.261s] Invoked command in '/home/shubham/ros2_ws/src/udemy_ros2_pkg/build/udemy_ros2_pkg' returned '0': CMAKE_PREFIX_PATH=/home/shubham/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/shubham/ros2_ws/src/udemy_ros2_pkg/build/udemy_ros2_pkg

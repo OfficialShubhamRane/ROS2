@@ -1,0 +1,11 @@
+/home/shubham/ros2_ws/src/udemy_ros2_pkg/build/udemy_ros2_pkg/CMakeFiles/uninstall.dir
+/home/shubham/ros2_ws/src/udemy_ros2_pkg/build/udemy_ros2_pkg/CMakeFiles/udemy_ros2_pkg_uninstall.dir
+/home/shubham/ros2_ws/src/udemy_ros2_pkg/build/udemy_ros2_pkg/CMakeFiles/ament_cmake_python_copy_scripts.dir
+/home/shubham/ros2_ws/src/udemy_ros2_pkg/build/udemy_ros2_pkg/CMakeFiles/ament_cmake_python_build_scripts_egg.dir
+/home/shubham/ros2_ws/src/udemy_ros2_pkg/build/udemy_ros2_pkg/CMakeFiles/test.dir
+/home/shubham/ros2_ws/src/udemy_ros2_pkg/build/udemy_ros2_pkg/CMakeFiles/edit_cache.dir
+/home/shubham/ros2_ws/src/udemy_ros2_pkg/build/udemy_ros2_pkg/CMakeFiles/rebuild_cache.dir
+/home/shubham/ros2_ws/src/udemy_ros2_pkg/build/udemy_ros2_pkg/CMakeFiles/list_install_components.dir
+/home/shubham/ros2_ws/src/udemy_ros2_pkg/build/udemy_ros2_pkg/CMakeFiles/install.dir
+/home/shubham/ros2_ws/src/udemy_ros2_pkg/build/udemy_ros2_pkg/CMakeFiles/install/local.dir
+/home/shubham/ros2_ws/src/udemy_ros2_pkg/build/udemy_ros2_pkg/CMakeFiles/install/strip.dir

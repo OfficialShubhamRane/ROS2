@@ -1,0 +1,47 @@
+[0.106s] Invoking command in '/home/shubham/ros2_ws/src/udemy_ros2_pkg/build/udemy_ros2_pkg': CMAKE_PREFIX_PATH=/home/shubham/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake /home/shubham/ros2_ws/src/udemy_ros2_pkg -DCMAKE_INSTALL_PREFIX=/home/shubham/ros2_ws/src/udemy_ros2_pkg/install/udemy_ros2_pkg
+[0.593s] -- The C compiler identification is GNU 11.3.0
+[1.034s] -- The CXX compiler identification is GNU 11.3.0
+[1.070s] -- Detecting C compiler ABI info
+[1.464s] -- Detecting C compiler ABI info - done
+[1.490s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.491s] -- Detecting C compile features
+[1.492s] -- Detecting C compile features - done
+[1.505s] -- Detecting CXX compiler ABI info
+[1.900s] -- Detecting CXX compiler ABI info - done
+[1.929s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.930s] -- Detecting CXX compile features
+[1.931s] -- Detecting CXX compile features - done
+[1.957s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.879s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[3.511s] -- Found rclpy: 3.3.5 (/opt/ros/humble/share/rclpy/cmake)
+[3.925s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_python/cmake/ament_python_install_package.cmake:122 (add_custom_target):
+[3.925s]   add_custom_target called with invalid target name
+[3.925s]   "ament_cmake_python_copy_scripts/".  Target names may not contain a slash.
+[3.925s]   Use ADD_CUSTOM_COMMAND to generate files.
+[3.926s] Call Stack (most recent call first):
+[3.926s]   /opt/ros/humble/share/ament_cmake_python/cmake/ament_python_install_package.cmake:39 (_ament_cmake_python_install_package)
+[3.926s]   CMakeLists.txt:13 (ament_python_install_package)
+[3.927s] 
+[3.927s] [0m
+[3.927s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_python/cmake/ament_python_install_package.cmake:141 (add_custom_target):
+[3.928s]   add_custom_target called with invalid target name
+[3.928s]   "ament_cmake_python_build_scripts/_egg".  Target names may not contain a
+[3.929s]   slash.  Use ADD_CUSTOM_COMMAND to generate files.
+[3.929s] Call Stack (most recent call first):
+[3.929s]   /opt/ros/humble/share/ament_cmake_python/cmake/ament_python_install_package.cmake:39 (_ament_cmake_python_install_package)
+[3.930s]   CMakeLists.txt:13 (ament_python_install_package)
+[3.930s] 
+[3.930s] [0m
+[3.944s] -- Found ament_lint_auto: 0.12.4 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.479s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.481s] -- Configured cppcheck include dirs: 
+[4.481s] -- Configured cppcheck exclude dirs and/or files: 
+[4.494s] -- Added test 'flake8' to check Python code syntax and style conventions
+[4.559s] -- Added test 'lint_cmake' to check CMake code style
+[4.573s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[4.708s] -- Added test 'uncrustify' to check C / C++ code style
+[4.709s] -- Configured uncrustify additional arguments: 
+[4.720s] -- Added test 'xmllint' to check XML markup files
+[4.730s] -- Configuring incomplete, errors occurred!
+[4.730s] See also "/home/shubham/ros2_ws/src/udemy_ros2_pkg/build/udemy_ros2_pkg/CMakeFiles/CMakeOutput.log".
+[4.749s] Invoked command in '/home/shubham/ros2_ws/src/udemy_ros2_pkg/build/udemy_ros2_pkg' returned '1': CMAKE_PREFIX_PATH=/home/shubham/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake /home/shubham/ros2_ws/src/udemy_ros2_pkg -DCMAKE_INSTALL_PREFIX=/home/shubham/ros2_ws/src/udemy_ros2_pkg/install/udemy_ros2_pkg
